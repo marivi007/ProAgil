@@ -7,11 +7,13 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { EventosComponent } from './eventos/eventos.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventosComponent
+    EventosComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
