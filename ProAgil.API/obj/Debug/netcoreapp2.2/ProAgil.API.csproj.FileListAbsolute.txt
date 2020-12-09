@@ -1,0 +1,17 @@
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csprojAssemblyReference.cache
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfoInputs.cache
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.AssemblyInfo.cs
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cache
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorAssemblyInfo.cs
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.deps.json
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.json
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.runtimeconfig.dev.json
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\bin\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.RazorTargetAssemblyInfo.cache
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.dll
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.pdb
+C:\Users\Lenovo T430\Documents\ProAgil\ProAgil.API\obj\Debug\netcoreapp2.2\ProAgil.API.genruntimeconfig.cache
