@@ -59,20 +59,23 @@ namespace ProAgil.API.Data
             return await query.ToArrayAsync();
         }
 
-        public async Task<Evento> GetAllEventoAsyncById(int EventoId, bool includePalestrantes = false)
+        public async Task<Evento> GetEventoAsyncById(int EventoId, bool includePalestrantes)
         {
             IQueryable<Evento> query = _context.Eventos
-               .Include(c => c.Lotes)
-               .Include(c => c.RedesSociais);
+                 .Include(c => c.Lotes)
+                 .Include(c => c.RedesSociais);
+
             if (includePalestrantes)
             {
-                query = query.Include(pe => pe.PalestrantesEventos)
+                query = query
+                    .Include(pe => pe.PalestrantesEventos)
                     .ThenInclude(p => p.Palestrante);
             }
 
-            query = query.AsNoTracking()
-                .OrderByDescending(c => c.DataEvento)
-                .Where(c => c.Id == EventoId);
+            query = query
+                        .AsNoTracking()
+                        .OrderBy(c => c.Id)
+                        .Where(c => c.Id == EventoId);
 
             return await query.FirstOrDefaultAsync();
         }
