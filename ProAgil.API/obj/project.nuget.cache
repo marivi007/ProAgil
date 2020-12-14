@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "av/T/P/5+mt06/I7Z5WOaanJyVPNBmW3Z/us4CF/5Zyynywc+5LiVyQL5wNbdqCkLUz01B+6L/IhyHq2oCx7fA==",
+  "dgSpecHash": "aKZM/W6R9wfKJbWFFBjGmoqk9DUXKxgtlo2n3mDbQQ7ee7CjfC4LwynBLFc2yt5qII/jhv8lUfn5TGiinyb7tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo T430\\Documents\\ProAgil\\ProAgil.API\\ProAgil.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo T430\\.nuget\\packages\\automapper\\7.0.0\\automapper.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo T430\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\4.0.0\\automapper.extensions.microsoft.dependencyinjection.4.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo T430\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Lenovo T430\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\Lenovo T430\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
