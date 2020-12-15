@@ -12,26 +12,22 @@ namespace ProAgil.API.Helpers
     {
         public AutoMapperProfiles()
         {
-            //Para cada PalestrantesEventos,quero que pegue o preenchimento de palestrante e atribua para palestrantes
             CreateMap<Evento, EventoDto>()
-                .ForMember(dest => dest.Palestrantes, opt =>
-                {
+                .ForMember(dest => dest.Palestrantes, opt => {
                     opt.MapFrom(src => src.PalestrantesEventos.Select(x => x.Palestrante).ToList());
-                }).ReverseMap();
-
+                })
+                .ReverseMap();
 
             CreateMap<Palestrante, PalestranteDto>()
-                .ForMember(dest => dest.Eventos, opt =>
-                {
+                .ForMember(dest => dest.Eventos, opt => {
                     opt.MapFrom(src => src.PalestrantesEventos.Select(x => x.Evento).ToList());
-                }).ReverseMap();
+                })
+                .ReverseMap();
 
             CreateMap<Lote, LoteDto>().ReverseMap();
-        
-           
             CreateMap<RedeSocial, RedeSocialDto>().ReverseMap();
+
             
-                                                                                                                                                                                               
         }
     }
 }
